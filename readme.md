@@ -3,8 +3,12 @@
 ## Dataset
 
 Direktori **dataset** berisi semua dataset yang dibutuhkan dalam format CSV.
-Khusus untuk dataset yang berupa gambar (Bab 16 - Klasifikasi Gambar Spesies Hewan),
-dataset dapat diunduh dari https://www.kaggle.com/chetankv/dogs-cats-images.
+Khusus untuk dataset berikut, Anda harus mengunduh dataset secara manual.
+
+1. Sentiment140 dataset (Bab 12 - Sentiment Analysis Twitter),
+   <https://www.kaggle.com/kazanova/sentiment140>.
+2. Cats and Dogs (Bab 16 - Klasifikasi Gambar Spesies Hewan),
+   <https://www.kaggle.com/chetankv/dogs-cats-images>.
 
 ## Menggunakan Kode pada Repositori
 
