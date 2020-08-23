@@ -275,3 +275,6 @@ dmypy.json
 
 # Ignore binary files
 datasets/dogs-vs-cats
+
+# Ignore models
+model/animals
