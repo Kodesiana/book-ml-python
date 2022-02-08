@@ -5,7 +5,6 @@ import base64
 
 from flask import Flask
 from flask import request
-from flask import jsonify
 from flask import render_template
 
 # --- Objects

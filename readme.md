@@ -3,12 +3,7 @@
 ## Dataset
 
 Direktori **dataset** berisi semua dataset yang dibutuhkan dalam format CSV.
-Khusus untuk dataset berikut, Anda harus mengunduh dataset secara manual.
-
-1. Sentiment140 dataset (Bab 12 - Sentiment Analysis Twitter),
-   <https://www.kaggle.com/kazanova/sentiment140>.
-2. Cats and Dogs (Bab 16 - Klasifikasi Gambar Spesies Hewan),
-   <https://www.kaggle.com/chetankv/dogs-cats-images>.
+Khusus untuk dataset `imdb-reviews-50k.csv.gz` menggunakan kompresi GZIP untuk mengurangi ukuran dataset.
 
 ## Menggunakan Kode pada Repositori
 
@@ -34,27 +29,13 @@ Folder ini berisi file Python untuk membuat server REST API.
 
 ### Web
 
-Folder ini tiga contoh website menggunakan NodeJS, PHP, dan Python.
+Folder ini tiga contoh website menggunakan Python.
 Anda dapat menjalankan website tersebut sama seperti petunjuk pada buku
 atau dengan menjalankan perintah berikut.
 
-NodeJS
-
-```bash
-npm install && npm run dev
-```
-
-PHP
-
-```bash
-php -S 127.0.0.1:5000 -t web/php
-```
-
-Python
-
 ```bash
 conda activate ml
-python web/python/app.py
+python web/app.py
 ```
 
 ## Lisensi
