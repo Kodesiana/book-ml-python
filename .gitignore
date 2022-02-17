@@ -273,8 +273,6 @@ dmypy.json
 *.h5
 *.joblib
 
-# Ignore binary files
-datasets/dogs-vs-cats
-
 # Ignore models
-model/animals
+model/*
+!model/.gitkeep
