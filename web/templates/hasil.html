@@ -12,8 +12,12 @@
 <body>
     <div class="container">
         <h1>Hasil prediksi</h1>
-        <p class="center-text"><b>{{ hasil }}</b></p>
-        
+        <p class="center-text"><b>Prediksi:<br>{{ hasil }}</b></p>
+
+        {% if rm %}
+        <p class="center-text">rm: {{ rm }} - lstat: {{ lstat }}</p>
+        {% endif %}
+
         {% if img %}
             <img src="{{ img }}" alt="">
         {% endif %}
