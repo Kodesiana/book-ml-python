@@ -3,10 +3,9 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Machine Learning menggunakan Python</title>
 
-    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="stylesheet" href="/static/style.css">
 </head>
 
 <body>
@@ -15,7 +14,7 @@
         <hr>
 
         <h2>Prediksi Harga Rumah</h2>
-        <form action="/predict-house" method="post" enctype="application/x-www-form-urlencoded">
+        <form action="/predict-house" method="post" enctype="multipart/form-data">
             <input type="hidden" name="predict_mode" value="regresi">
             <input class="form-input" type="number" id="rm" name="rm" placeholder="rm: Banyaknya kamar">
             <input class="form-input" type="number" id="lstat" name="lstat" placeholder="lstat: Presentase populasi masyarakat miskin">

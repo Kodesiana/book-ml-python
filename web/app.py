@@ -31,7 +31,8 @@ def predict_cifar():
     result = requests.post("http://localhost:5000/predict_classify", files=body)
 
     with open(save_path, "rb") as img_file:
-        image_data = "data:image/jpg;base64," + base64.b64encode(img_file.read()).decode('utf-8')
+        image_data = base64.b64encode(img_file.read()).decode('utf-8')
+        image_data = "data:image/jpg;base64," + image_data
 
     response = result.json()
     return render_template('hasil.html', hasil=response["predicted"], img=image_data)
